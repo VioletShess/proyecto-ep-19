@@ -62,15 +62,16 @@ li{
     flex-direction: column;
 
 }
-.tabla{
+table{
     font-family: 'Englebert', sans-serif; 
     border: solid;color: black;
-    justify-content: center;
+    margin: auto;
 }
 
 h2{
+    margin-top: 10px;
     font-family: 'Englebert', sans-serif;
-
+    text-align: center;
 }
 
 th {

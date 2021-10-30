@@ -353,17 +353,17 @@ li {
           flex-direction: column;
 }
 
-.tabla {
+table {
   font-family: 'Englebert', sans-serif;
   border: solid;
   color: black;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  margin: auto;
 }
 
 h2 {
+  margin-top: 10px;
   font-family: 'Englebert', sans-serif;
+  text-align: center;
 }
 
 th {
