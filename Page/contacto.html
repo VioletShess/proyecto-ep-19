@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTACTO</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/estilo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Englebert&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Rubik+Mono+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Catamaran&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="contenedor">
+        <header class="header"> 
+
+            <div class="contenedorLogo">
+                <img  class="logo" src="../Medios/logo.png"alt="Logo de la escuela" width="180" height="auto">
+                <div class="escuela d-none d-md-block">Escuela Primaria N°19 "Pablo Pizzurno"</div>>
+            </div>
+
+            <div class="menuDeNavegacion">
+
+                <div class="redes" >
+                    <a class="facebook" href="https://www.facebook.com/escuelaprimaria19"></a>
+                    <a class="youtube" href="https://www.youtube.com/channel/UC-5sVWoN_iJvHcSJnzT1srA"></a>
+                    <a class="mail" href="primaria19sanisidro@abc.gob.ar"></a>
+                </div>
+                <nav>
+
+                    <a class="laEscuela" href="../index.html">LA ESCUELA</a>
+                    <a class="cartelera" href="./Cartelera.html">CARTELERA DIGITAL</a> 
+                    <a class="horarios" href="./horarios.html">HORARIOS</a>
+                    <a class="secretaria" href="./secretaria.html">SECRETARÍA</a>
+                    <a class="contacto" href="./contacto.html">CONTACTO</a>
+                </nav>
+
+            </div>
+
+        </header>
+        <main>
+            <div class="contenedorContacto">
+
+                <h1>Dudas o consultas</h1>
+
+                <p class="parrafoConsulta">Cualquier duda o consulta podrás comunicarte con nosotros a través del formulario de contacto, estaremos respondiendo a la brevedad.</p>
+
+                <fieldset> 
+
+                    <legend>FORMULARIO DE CONTACTO</legend>
+                
+                    <form action="CONTACTO.php" method="get">
+                
+                    <label for="NOMBRE">Nombre</label>
+                    <input type="NOMBRE">
+                
+                    <label for="APELLIDO">Apellido</label>
+                    <input type="APELLIDO">
+                    <br><br>
+                
+                
+                    <label for="EMAIL"></label>Email
+                    <input type="email" name="Email" id="Email">
+                    <br><br>
+                
+                    <label for="ASUNTO">Asunto</label>
+                    <input type="ASUNTO">
+                    <br><br>
+                
+                    <label for="CONSULTA">CONSULTA</label>
+                    <br>
+                
+                    <TExtarea>Mi consulta es...</TExtarea>
+                    <br><br>
+                
+                
+                    <input type="file" name="Adjuntar archivo" id="Adjuntar archivo">
+                    <br><br>
+                
+                    <input type="checkbox" name="ACEPTO" id="Acepta"> Entiendo que la respuesta a la consulta puede demorar. Acepto los términos.
+                    <br><br>
+                
+                    <input type="submit" value="Enviar consulta">
+                    <input type="reset" value="Limpiar">
+
+                    </form> 
+                
+                    </fieldset>
+
+                    
+            </div>
+
+            <p class="gracias">¡GRACIAS POR CONTACTARTE CON LA ESCUELA!</p>
+        </main>
+        <footer>
+            <p class="direccion">
+                <div class="direccionIcono"></div>
+                Julián Navarro N° 2693-Beccar
+            </p>
+            <p class="telefono">
+                <div class="telefonoIcono"></div>
+                4732-2372
+            </p>
+                
+            <p class="email">
+                 <div class="emailIcono"></div>
+                primaria19sanisidro@abc.gob.ar
+            </p>
+        </footer>
+
+    
+    </div>
+
+</body>
+</html>

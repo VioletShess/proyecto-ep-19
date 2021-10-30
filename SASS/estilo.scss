@@ -1,0 +1,145 @@
+@import "header.scss"; 
+@import "contenedor.scss";
+@import "footer.scss";
+
+
+
+body{
+    margin: 0px;
+}
+
+main {
+    margin: 40px 120px 0;
+
+    @media (max-width: 680px){
+        margin: 40px 40px 0;
+    }
+}
+h1 {
+    font-family: 'Englebert', sans-serif;
+    text-align: center;
+    padding: 25px;
+    border-top: 10px solid rgb(255, 82, 0);
+    border-bottom: 10px solid rgb(114, 20, 126);
+    border-right: 10px solid rgb(242, 17, 112)  ;
+    border-left: 10px solid rgb(80, 203, 147);
+    padding: 25px;
+    
+}
+
+section{
+    font-family: 'Catamaran', sans-serif;
+    font-size: 16px;
+
+}
+
+li{
+    list-style: none;
+    background-image: url(..//Medios/pin.png);
+    background-repeat: no-repeat;
+    background-size: 15px;
+    padding-left: 20px;
+    line-height: 20px;
+    font-weight: bold;
+    
+
+}
+.te{
+    color:rgb(255, 82, 0);
+    font-weight: bold;
+    font-size: 36px;
+    letter-spacing: 2px;
+    margin-top: 30px;
+    text-align: center;
+    
+}
+
+.contenedorContacto{
+    font-family: 'Englebert', sans-serif;
+    font-weight: bold;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+
+}
+.tabla{
+    font-family: 'Englebert', sans-serif; 
+    border: solid;color: black;
+    justify-content: center;
+}
+
+h2{
+    font-family: 'Englebert', sans-serif;
+
+}
+
+th {
+    border:solid black;
+    
+
+}
+
+.gracias{
+    font-family: 'Englebert', sans-serif;
+    font-size: 28px;
+    text-align: center;
+}
+
+.consulta{
+    font-family: 'Englebert', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    background-color: blueviolet;
+
+}
+.padlet-embed{
+    border-top: 15px solid rgb(114, 20, 126);
+    border-bottom: 15px solid rgb(255, 82, 0);
+    border-right: 15px  solid rgb(80, 203, 147) ;
+    border-left: 15px solid rgb(242, 17, 112);
+    padding: 20px;
+
+}
+ 
+.columnas {
+    display: flex;
+    justify-content: space-between;
+
+    @media (max-width: 480px){
+        flex-direction: column;
+    }
+    
+    .horasEspeciales {
+      width: 50%;
+      background: $verdePastel;
+      font-size: 20px;
+      padding: 30px;
+      margin-right: 20px;
+
+      @media (max-width: 480px){
+        width: 100%
+      }
+  
+      li {
+        margin-bottom: 20px;
+      }
+    }
+
+    .galeriaDeFotos {
+        width: 50%;
+        @media (max-width: 480px){
+            width: 100%
+          }
+    }
+}
+
+.cajaTexto {
+    margin: 30px auto 30px;
+    max-width: 800px;
+}
+.lema {
+    margin-top: 26px;
+    padding: 10px;
+    font-weight: bold;
+    background-color: $verdePastel;
+}

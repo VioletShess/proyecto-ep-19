@@ -1,0 +1,48 @@
+footer {
+  font-family: 'Englebert', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  color: #72147e;
+  display: inline-block;
+  padding: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+@media (max-width: 694px) {
+  footer {
+    padding: 0;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.direccionIcono {
+  background-image: url("../Medios/ubicacion.png");
+  width: 36px;
+  height: 36px;
+  background-size: contain;
+}
+
+.telefonoIcono {
+  background-image: url("../Medios/tel.png");
+  width: 36px;
+  height: 36px;
+  background-size: contain;
+}
+
+.emailIcono {
+  background-image: url("../Medios/mail.png");
+  width: 36px;
+  height: 36px;
+  background-size: contain;
+}
+/*# sourceMappingURL=footer.css.map */

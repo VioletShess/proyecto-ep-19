@@ -1,0 +1,155 @@
+@mixin cambiarColor($segundos) {
+    transition: background-color $segundos;
+    transition: color $segundos;   
+}
+
+$naranja: rgb(255, 82, 0);
+$fucsia: rgb(242, 17, 112);
+$verde: rgb(80, 203, 147);
+$violeta: rgb(114, 20, 126);
+$azul: rgb(15, 82, 186);
+$verdePastel: #e1ffe8;
+
+header {
+        display: inline-block; 
+        display: flex;
+        justify-content: space-between;
+        padding: 30px;
+        background-color: $verdePastel;
+
+        @media (max-width: 480px){
+            flex-direction: column;
+        }
+            
+        
+    
+    .contenedorLogo {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        @media (max-width: 480px){
+            flex-direction: column;
+        }
+    }
+    .menuDeNavegacion {        
+        font-family: 'Englebert', sans-serif;
+        font-size: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        @media (max-width: 480px){
+            flex-direction: column;
+         }
+    }
+    .redes{
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-self: flex-start;
+        @media (max-width: 480px){
+            flex-direction: row;
+            align-items: center;
+        }
+ 
+    } 
+    nav{
+        width: 100%;
+        align-self: baseline;
+        margin-bottom: 28px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        @media (max-width: 480px){
+            flex-direction: column;
+            align-items: center;
+         }
+    }
+    .facebook{
+        background-image: url(../Medios/facebook.png);
+        display: block;
+        width: 36px;
+        height: 36px;
+        @media (max-width: 480px){
+            width: 36px;
+            height: 36px; 
+        }
+         
+    
+    }
+    .youtube {
+        background-image: url(../Medios/youtube.png);
+        display: block;
+        width: 36px;
+        height: 36px;
+        @media (max-width: 480px){
+            width: 36px;
+            height: 36px; 
+        }
+    }
+    .mail {
+        background-image: url(../Medios/email.png);
+        background-size: cover;
+        display: block;
+        width: 36px;
+        height: 36px;
+        @media (max-width: 480px){
+            width: 36px;
+            height: 36px; 
+        }
+    }
+    .escuela {
+        font-family: 'Homemade Apple', cursive;
+        font-size: 18px;
+        
+    
+    }
+    img {
+        width: 150px;
+        height: auto;
+    }
+    .menuDeNavegacion a {
+        padding: 5px;
+    }
+    
+    .laEscuela {
+        color: $naranja;
+        @include cambiarColor(0.6s);
+        &:hover {
+            background-color: $naranja;
+            color: white;
+        }
+    }
+    .cartelera {
+        color:$fucsia;
+        @include cambiarColor(0.6s);
+        &:hover {
+            background-color: $fucsia;
+            color: white;
+        }
+    }
+    .horarios {
+        color: $verde;
+        @include cambiarColor(0.6s);
+        &:hover {
+            background-color:  $verde;
+            color: white;
+        }
+    }
+    .secretaria {
+        color: $violeta;
+        @include cambiarColor(0.6s);
+        &:hover {
+            background-color: $violeta;
+            color: white;
+        }
+    }
+    .contacto {
+        color: rgb(15, 82, 186);
+        @include cambiarColor(0.6s);
+        &:hover {
+            background-color: rgb(15, 82, 186);
+            color: white;
+        }
+    }
+
+}
